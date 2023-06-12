@@ -1,0 +1,58 @@
+{
+  "name": "Zaman_client",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "2gis-maps": "^3.6.6",
+    "@2gis/mapgl": "^1.21.0",
+    "@react-native-async-storage/async-storage": "^1.15.7",
+    "@react-native-community/push-notification-ios": "^1.10.1",
+    "@react-native-masked-view/masked-view": "^0.2.6",
+    "@react-navigation/drawer": "^6.1.4",
+    "@react-navigation/native": "^6.0.2",
+    "@react-navigation/stack": "^6.0.7",
+    "axios": "^0.21.4",
+    "currency-formatter": "^1.5.8",
+    "joi": "^17.4.2",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "phone-formatter": "^0.0.2",
+    "react": "17.0.2",
+    "react-native": "0.65.0",
+    "react-native-confirmation-code-field": "^7.1.0",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-progress": "^5.0.0",
+    "react-native-push-notification": "^8.1.0",
+    "react-native-reanimated": "2.0.0",
+    "react-native-safe-area-context": "^3.3.0",
+    "react-native-screens": "^3.5.0",
+    "react-native-skeleton-placeholder": "^5.0.0",
+    "react-native-svg": "^12.1.1",
+    "react-native-uuid": "^2.0.1",
+    "react-native-vector-icons": "^8.1.0",
+    "react-redux": "^7.2.4",
+    "text-encoding-polyfill": "^0.6.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/runtime": "^7.15.4",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "babel-jest": "^27.2.5",
+    "eslint": "^8.0.0",
+    "jest": "^27.2.5",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-native-codegen": "^0.0.7",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
